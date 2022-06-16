@@ -1,0 +1,60 @@
+.{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+
+}
+body{
+    background-image: url("bg-intro-desktop\ \(2\).png");
+    background-color: hwb(0 17% 5%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    /* border-radius: 34px; */
+    /* box-shadow: 0.5px 10px; */
+}
+.right p{
+    position: relative;
+    /* font-size: 22px; */
+    font-weight: 600px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+}
+.wrapper form{
+     margin-top: 50px; 
+
+}
+.wrapper form .box{
+    height: 52px;
+    margin: 18px  0;
+
+}
+form .box input{
+    height: 50%;
+    width: 100%;
+
+    
+}
+.box.button input{
+    background: hsl(154, 59%, 51%);
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+
+p,h1{
+    color: white;
+}
+.date{
+    color: red;
+}
